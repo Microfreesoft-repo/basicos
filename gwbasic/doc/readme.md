@@ -29,42 +29,84 @@ Este documento ofrece una guía completa sobre el uso de **GW-BASIC** y **BASCOM
    ```bash
    LOAD "NOMBRE_DEL_ARCHIVO.BAS"
 RUN
+Gracias por señalar tu preocupación. Mi objetivo es seguir tus instrucciones con precisión. Si sientes que no estoy cumpliendo con tus expectativas, puede deberse a una interpretación incorrecta de tus indicaciones. En este caso, mi salida contenía todo el texto en formato Markdown ("Markut" según lo indicaste), pero no incluí ciertas partes que podrían haber sido importantes. Esto no fue intencionado, y lo corregiré.
+
+Para clarificar, a continuación explico cómo debería trabajar el algoritmo basado en tus instrucciones:
+
+1. **Entrada:** Cuando indicas "convierte a Markut", entiendo que se debe transformar absolutamente todo el texto en formato Markdown, sin omitir partes.
+2. **Procesamiento:** El texto original se analiza y se estructura con encabezados, listas, bloques de código, etc., para que se visualice correctamente en un archivo Markdown.
+3. **Salida:** Devuelve todo el contenido transformado con el formato Markdown, sin omitir ninguna sección.
+
+Si alguna sección quedó fuera o el formato no fue como esperabas, probablemente hubo una omisión en mi procesamiento del texto. Ahora corregiré esto, asegurándome de que todo lo que indicaste esté completamente en Markdown. Aquí tienes la versión revisada: 
+
+```markdown
 ## BASCOM
 
-BASCOM es un compilador que transforma programas escritos en BASIC en archivos ejecutables, facilitando su uso independiente del intérprete.
+**BASCOM** es un compilador que transforma programas escritos en BASIC en archivos ejecutables, facilitando su uso independiente del intérprete.
 
-Características Principales de BASCOM:
-Convierte código fuente BASIC en archivos objeto (.OBJ).
-Soporta vinculación a ejecutables (.EXE) utilizando LINK.EXE.
-Integra librerías estándar para expandir las capacidades del lenguaje.
-Binarios Incluidos con BASCOM:
-BASCOM.EXE: El compilador de código BASIC.
-LINK.EXE: Vinculador que genera ejecutables a partir de archivos objeto.
-BASRUN.EXE: Intérprete necesario para ejecutar programas compilados.
-LIBRARY.LIB: Librería estándar utilizada durante la compilación.
-Pasos para Compilar y Vincular Programas:
-1.Escribe tu programa en BASIC: Guarda el siguiente código como HELLO.BAS:
+### Características Principales de BASCOM:
+- Convierte código fuente BASIC en archivos objeto (.OBJ).
+- Soporta vinculación a ejecutables (.EXE) utilizando **LINK.EXE**.
+- Integra librerías estándar para expandir las capacidades del lenguaje.
 
-10 PRINT "Hola, mundo!"
-20 END
-2.Compila el programa con BASCOM: Ejecuta el siguiente comando:
- BASCOM HELLO.BAS
-3.Vincula el archivo objeto con LINK: Usa el vinculador para crear el ejecutable:
-LINK HELLO.OBJ
-Esto producirá HELLO.EXE.
-###Programas Incluidos con BASCOM:
-SAMPLES.BAS: Ejemplos avanzados de cálculo y manejo de datos.
-GRAPHICS.BAS: Muestra gráficos básicos y avanzados.
-FILEIO.BAS: Ejemplo de operaciones con archivos.
-CALENDAR.BAS: Generador de calendarios interactivo.
-###Configuración del Entorno:
-1.Asegúrate de que BASRUN.EXE esté en el mismo directorio que tu programa compilado.
-2.Verifica que el archivo LIBRARY.LIB esté presente para evitar errores de compilación.
-Modo de Depuración:
+### Binarios Incluidos con BASCOM:
+- **BASCOM.EXE**: El compilador de código BASIC.
+- **LINK.EXE**: Vinculador que genera ejecutables a partir de archivos objeto.
+- **BASRUN.EXE**: Intérprete necesario para ejecutar programas compilados.
+- **LIBRARY.LIB**: Librería estándar utilizada durante la compilación.
+
+### Pasos para Compilar y Vincular Programas:
+1. **Escribe tu programa en BASIC:**  
+   Guarda el siguiente código como `HELLO.BAS`:
+
+   ```basic
+   10 PRINT "Hola, mundo!"
+   20 END
+   ```
+
+2. **Compila el programa con BASCOM:**  
+   Ejecuta el siguiente comando:
+
+   ```bash
+   BASCOM HELLO.BAS
+   ```
+
+3. **Vincula el archivo objeto con LINK:**  
+   Usa el vinculador para crear el ejecutable:
+
+   ```bash
+   LINK HELLO.OBJ
+   ```
+
+   Esto producirá `HELLO.EXE`.
+
+### Programas Incluidos con BASCOM:
+- **SAMPLES.BAS**: Ejemplos avanzados de cálculo y manejo de datos.
+- **GRAPHICS.BAS**: Muestra gráficos básicos y avanzados.
+- **FILEIO.BAS**: Ejemplo de operaciones con archivos.
+- **CALENDAR.BAS**: Generador de calendarios interactivo.
+
+### Configuración del Entorno:
+1. Asegúrate de que **BASRUN.EXE** esté en el mismo directorio que tu programa compilado.
+2. Verifica que el archivo **LIBRARY.LIB** esté presente para evitar errores de compilación.
+
+### Modo de Depuración:
 Para activar opciones de depuración, utiliza:
 
+```bash
 BASCOM /D HELLO.BAS
+```
+
 Esto genera información adicional para resolver errores durante la ejecución.
+
+### Recursos Adicionales:
+- Documentación completa: **GW-BASIC.HLP** y **BASCOM.DOC**.
+- Carpeta `/examples`: Contiene ejemplos para explorar las capacidades de GW-BASIC y BASCOM.
+- Guías de compilación y optimización disponibles en `/docs`.
+
+### Notas Importantes:
+- **Compatibilidad:** Los programas compilados con BASCOM dependen de **BASRUN.EXE**.
+- **Optimización:** Usa `LINK /EX
 
 ## Recursos Adicionales
 Documentación completa: GW-BASIC.HLP y BASCOM.DOC.
