@@ -29,7 +29,7 @@ Este documento ofrece una guía completa sobre el uso de **GW-BASIC** y **BASCOM
    ```bash
    LOAD "NOMBRE_DEL_ARCHIVO.BAS"
 RUN
-##BASCOM
+## BASCOM
 
 BASCOM es un compilador que transforma programas escritos en BASIC en archivos ejecutables, facilitando su uso independiente del intérprete.
 
@@ -66,7 +66,7 @@ Para activar opciones de depuración, utiliza:
 BASCOM /D HELLO.BAS
 Esto genera información adicional para resolver errores durante la ejecución.
 
-###Recursos Adicionales
+## Recursos Adicionales
 Documentación completa: GW-BASIC.HLP y BASCOM.DOC.
 Carpeta /examples: Contiene ejemplos para explorar las capacidades de GW-BASIC y BASCOM.
 Guías de compilación y optimización disponibles en /docs.
