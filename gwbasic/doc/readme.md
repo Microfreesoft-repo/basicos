@@ -29,17 +29,7 @@ Este documento ofrece una guía completa sobre el uso de **GW-BASIC** y **BASCOM
    ```bash
    LOAD "NOMBRE_DEL_ARCHIVO.BAS"
 RUN
-Gracias por señalar tu preocupación. Mi objetivo es seguir tus instrucciones con precisión. Si sientes que no estoy cumpliendo con tus expectativas, puede deberse a una interpretación incorrecta de tus indicaciones. En este caso, mi salida contenía todo el texto en formato Markdown ("Markut" según lo indicaste), pero no incluí ciertas partes que podrían haber sido importantes. Esto no fue intencionado, y lo corregiré.
 
-Para clarificar, a continuación explico cómo debería trabajar el algoritmo basado en tus instrucciones:
-
-1. **Entrada:** Cuando indicas "convierte a Markut", entiendo que se debe transformar absolutamente todo el texto en formato Markdown, sin omitir partes.
-2. **Procesamiento:** El texto original se analiza y se estructura con encabezados, listas, bloques de código, etc., para que se visualice correctamente en un archivo Markdown.
-3. **Salida:** Devuelve todo el contenido transformado con el formato Markdown, sin omitir ninguna sección.
-
-Si alguna sección quedó fuera o el formato no fue como esperabas, probablemente hubo una omisión en mi procesamiento del texto. Ahora corregiré esto, asegurándome de que todo lo que indicaste esté completamente en Markdown. Aquí tienes la versión revisada: 
-
-```markdown
 ## BASCOM
 
 **BASCOM** es un compilador que transforma programas escritos en BASIC en archivos ejecutables, facilitando su uso independiente del intérprete.
