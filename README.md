@@ -33,6 +33,12 @@ El objetivo de este proyecto es proporcionar una referencia integral y práctica
 ### 7. **VBA (Visual Basic for Applications)**
 - **VBA para Word y Excel**: Una versión especializada de BASIC integrada en las aplicaciones de Microsoft Office. Permite automatizar tareas y crear soluciones personalizadas utilizando macros.
 
+### 8. **PowerBASIC**
+- **PowerBASIC**: Un compilador avanzado para BASIC que permite crear aplicaciones rápidas y compactas, especialmente optimizadas para entornos DOS y Windows. Con capacidades para manejar llamadas a API de Windows, PowerBASIC es ideal para desarrolladores que buscan flexibilidad y rendimiento.
+
+### 9. **Moon Rock Compiler**
+- **Moon Rock BASIC**: Un compilador de BASIC desarrollado por Rowan Crawley. Este compilador es conocido por su capacidad para generar código optimizado y ligero, así como por su compatibilidad con múltiples plataformas. Es una opción poderosa para quienes desean explorar nuevas formas de usar BASIC.
+
 ---
 
 ## Estructura del Repositorio
