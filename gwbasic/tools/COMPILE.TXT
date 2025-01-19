@@ -1,0 +1,7 @@
+TO COMPILE, TYPE BASCOM/O IF THERE IS NO ON ERROR
+TYPE BASCOM/E/O IF THERE IS
+then type in the name of the program and keep pressing enter 
+until you are back to the c: prompt.
+AND THEN IF THERE ARE NO CRITICAL ERRORS, TYPE LINK
+Then the name of the program and again keep pressing enter
+untill you are back to the c: prompt
