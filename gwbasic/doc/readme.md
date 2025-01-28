@@ -93,7 +93,7 @@ Esto genera información adicional para resolver errores durante la ejecución.
 - Documentación completa: **GW-BASIC.HLP** y **BASCOM.DOC**.
 - Carpeta `/examples`: Contiene ejemplos para explorar las capacidades de GW-BASIC y BASCOM.
 - Guías de compilación y optimización disponibles en `/docs`.
-
+* <p><a href="http://www.geocities.ws/chorimovil/manualgwbasicarg/000.html">gwbasci</a> manual del usuario </p>
 ### Notas Importantes:
 - **Compatibilidad:** Los programas compilados con BASCOM dependen de **BASRUN.EXE**.
 - **Optimización:** Usa `LINK /EX
