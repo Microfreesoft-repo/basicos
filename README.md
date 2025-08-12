@@ -37,6 +37,39 @@ Cuando se necesitaba un ejecutable más pequeño y rápido de cargar, se podía 
 1. **Compilar el código BASIC a objeto (.OBJ)**
    ```dos
    BASCOM PROGRAMA.BAS;
+LINK PROGRAMA.OBJ;
+Convertir de .EXE a .COM
+
+dos
+Copiar
+Editar
+EXE2BIN PROGRAMA.EXE PROGRAMA.COM
+🔹 Ejemplo completo
+dos
+Copiar
+Editar
+BASCOM HOLA.BAS;
+LINK HOLA.OBJ;
+EXE2BIN HOLA.EXE HOLA.COM
+💡 Notas de la época
+EXE2BIN estaba incluido en versiones antiguas de MS-DOS y en paquetes de desarrollo.
+
+En MS-DOS 5.0+, EXE2BIN pasó a estar en el disco de utilidades suplementarias.
+
+Si el .EXE superaba 64 KB, la conversión fallaba.
+
+Muchos desarrolladores diseñaban sus programas directamente como .COM para optimizar tamaño y velocidad.
+
+📦 Simulación actual
+Hoy se puede revivir este flujo usando DOSBox y las herramientas originales de BASCOM y EXE2BIN para experimentar tal como en un PC IBM XT.
+
+less
+Copiar
+Editar
+BASCOM  | Compilador BASIC
+LINK    | Enlazador
+EXE2BIN | Conversor de EXE a COM
+
 
 
 ### 2. **QuickBASIC (QB)**
