@@ -13,50 +13,50 @@ El objetivo de este proyecto es proporcionar una referencia integral y práctica
 ### 1. **GW-BASIC y BASCOM**
 - **GW-BASIC**: Un intérprete clásico de BASIC que se distribuyó con MS-DOS. Su uso principal era la creación de programas sencillos con un enfoque educativo.
 - **BASCOM**: Un compilador de BASIC que permitió convertir el código en ejecutables. Este compilador fue una extensión natural para proyectos más complejos desarrollados en GW-BASIC.
-- # Compilación y Conversión de Programas con BASCOM (Años 80)
+- #### Compilación y Conversión de Programas con BASCOM (Años 80)
 
 Este documento describe el flujo clásico para compilar programas en **BASCOM** (BASIC Compiler de Microsoft) y convertirlos de `.EXE` a `.COM` en un entorno **MS-DOS** de la época.
 
 ---
 
-## 📜 Contexto Histórico
-En los años 80, **BASCOM** era el compilador BASIC de Microsoft para IBM PC y compatibles. Permitía generar ejecutables `.EXE` desde código BASIC `.BAS`.  
-Cuando se necesitaba un ejecutable más pequeño y rápido de cargar, se podía convertir el `.EXE` a `.COM` usando la herramienta **EXE2BIN**.
+#### 📜 Contexto Histórico
+*En los años 80, **BASCOM** era el compilador BASIC de Microsoft para IBM PC y compatibles. Permitía generar ejecutables `.EXE` desde código BASIC `.BAS`.  
+*Cuando se necesitaba un ejecutable más pequeño y rápido de cargar, se podía convertir el `.EXE` a `.COM` usando la herramienta **EXE2BIN**.
 
 ---
 
 ## 🔹 Limitaciones de los `.COM`
-- Tamaño máximo de **64 KB** (código + datos + pila).
-- El código debe estar preparado para iniciar en el **desplazamiento 0x100h**.
-- No admite tablas de relocalización como los `.EXE`.
+*- Tamaño máximo de **64 KB** (código + datos + pila).
+*- El código debe estar preparado para iniciar en el **desplazamiento 0x100h**.
+*- No admite tablas de relocalización como los `.EXE`.
 
 ---
 
-## 🔹 Flujo de trabajo típico
+#### 🔹 Flujo de trabajo típico
 
 1. **Compilar el código BASIC a objeto (.OBJ)**
    
-   BASCOM PROGRAMA.BAS;
-LINK PROGRAMA.OBJ;
-Convertir de .EXE a .COM
+*   BASCOM PROGRAMA.BAS;
+*   LINK PROGRAMA.OBJ;
+*   Convertir de .EXE a .COM
 
 
-EXE2BIN PROGRAMA.EXE PROGRAMA.COM
+* EXE2BIN PROGRAMA.EXE PROGRAMA.COM
 🔹 Ejemplo completo
 
-BASCOM HOLA.BAS;
-LINK HOLA.OBJ;
-EXE2BIN HOLA.EXE HOLA.COM
+* BASCOM HOLA.BAS;
+* LINK HOLA.OBJ;
+* EXE2BIN HOLA.EXE HOLA.COM
 💡 Notas de la época
-EXE2BIN estaba incluido en versiones antiguas de MS-DOS y en paquetes de desarrollo.
+* EXE2BIN estaba incluido en versiones antiguas de MS-DOS y en paquetes de desarrollo.
 
-En MS-DOS 5.0+, EXE2BIN pasó a estar en el disco de utilidades suplementarias.
+* En MS-DOS 5.0+, EXE2BIN pasó a estar en el disco de utilidades suplementarias.
 
-Si el .EXE superaba 64 KB, la conversión fallaba.
+*Si el .EXE superaba 64 KB, la conversión fallaba.
 
-Muchos desarrolladores diseñaban sus programas directamente como .COM para optimizar tamaño y velocidad.
+** Muchos desarrolladores diseñaban sus programas directamente como .COM para optimizar tamaño y velocidad.
 
-📦 Simulación actual
+** 📦 Simulación actual
 Hoy se puede revivir este flujo usando DOSBox y las herramientas originales de BASCOM y EXE2BIN para experimentar tal como en un PC IBM XT.
 
 
