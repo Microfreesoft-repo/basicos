@@ -35,19 +35,15 @@ Cuando se necesitaba un ejecutable más pequeño y rápido de cargar, se podía 
 ## 🔹 Flujo de trabajo típico
 
 1. **Compilar el código BASIC a objeto (.OBJ)**
-   ```dos
+   
    BASCOM PROGRAMA.BAS;
 LINK PROGRAMA.OBJ;
 Convertir de .EXE a .COM
 
-dos
-Copiar
-Editar
+
 EXE2BIN PROGRAMA.EXE PROGRAMA.COM
 🔹 Ejemplo completo
-dos
-Copiar
-Editar
+
 BASCOM HOLA.BAS;
 LINK HOLA.OBJ;
 EXE2BIN HOLA.EXE HOLA.COM
@@ -63,9 +59,7 @@ Muchos desarrolladores diseñaban sus programas directamente como .COM para opti
 📦 Simulación actual
 Hoy se puede revivir este flujo usando DOSBox y las herramientas originales de BASCOM y EXE2BIN para experimentar tal como en un PC IBM XT.
 
-less
-Copiar
-Editar
+
 BASCOM  | Compilador BASIC
 LINK    | Enlazador
 EXE2BIN | Conversor de EXE a COM
