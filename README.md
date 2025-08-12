@@ -13,6 +13,31 @@ El objetivo de este proyecto es proporcionar una referencia integral y práctica
 ### 1. **GW-BASIC y BASCOM**
 - **GW-BASIC**: Un intérprete clásico de BASIC que se distribuyó con MS-DOS. Su uso principal era la creación de programas sencillos con un enfoque educativo.
 - **BASCOM**: Un compilador de BASIC que permitió convertir el código en ejecutables. Este compilador fue una extensión natural para proyectos más complejos desarrollados en GW-BASIC.
+- # Compilación y Conversión de Programas con BASCOM (Años 80)
+
+Este documento describe el flujo clásico para compilar programas en **BASCOM** (BASIC Compiler de Microsoft) y convertirlos de `.EXE` a `.COM` en un entorno **MS-DOS** de la época.
+
+---
+
+## 📜 Contexto Histórico
+En los años 80, **BASCOM** era el compilador BASIC de Microsoft para IBM PC y compatibles. Permitía generar ejecutables `.EXE` desde código BASIC `.BAS`.  
+Cuando se necesitaba un ejecutable más pequeño y rápido de cargar, se podía convertir el `.EXE` a `.COM` usando la herramienta **EXE2BIN**.
+
+---
+
+## 🔹 Limitaciones de los `.COM`
+- Tamaño máximo de **64 KB** (código + datos + pila).
+- El código debe estar preparado para iniciar en el **desplazamiento 0x100h**.
+- No admite tablas de relocalización como los `.EXE`.
+
+---
+
+## 🔹 Flujo de trabajo típico
+
+1. **Compilar el código BASIC a objeto (.OBJ)**
+   ```dos
+   BASCOM PROGRAMA.BAS;
+
 
 ### 2. **QuickBASIC (QB)**
 - **QuickBASIC**: Una mejora significativa de BASIC que introdujo un entorno de desarrollo integrado (IDE), capacidades de depuración y un compilador que generaba ejecutables independientes. Ideal para aplicaciones más avanzadas.
