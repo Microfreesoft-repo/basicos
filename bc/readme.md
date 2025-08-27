@@ -4,9 +4,12 @@ Este proyecto contiene ejemplos y programas escritos en **BASIC** que pueden ser
 
 ## Compiladores incluidos
 
-- **BC.EXE** → Compilador de BASIC.  
-- **LINK.EXE** → Enlazador que genera los ejecutables finales.  
-- **QB.EXE** → QuickBASIC, que funciona tanto como intérprete como compilador.
+## Compiladores incluidos
+
+- **BC.EXE** → Compilador de Microsoft BASIC Compiler.  
+- **LINK.EXE** → Enlazador necesario para generar los ejecutables `.EXE`.  
+- **QB.EXE** → QuickBASIC, entorno de desarrollo integrado (IDE) con compilador.  
+- **OLDQB.EXE** → Versión anterior de QuickBASIC, usada como referencia histórica para ejecutar y probar programas.  
 
 ## Cómo compilar
 
@@ -30,7 +33,7 @@ Ejecutar directamente con F5.
 
 Compilar y generar el ejecutable desde el menú Run > Make EXE File.
 
-💡 Proyectos de programación en BASIC
+1. 💡 Proyectos de programación en BASIC
 
 Ejemplos de proyectos clásicos y educativos:
 
@@ -42,7 +45,7 @@ Simulaciones matemáticas y gráficas.
 
 Programas educativos para aprender lógica de programación.
 
-📂 Organización del repositorio
+2.📂 Organización del repositorio
 
 src/ → Código fuente en BASIC.
 
@@ -52,6 +55,6 @@ bin/ → compiladores y ids.
 
 examples/ → binarios de los programas en basic.
 
-🎯 Objetivo del proyecto
+3. 🎯 Objetivo del proyecto
 
 Este proyecto busca rescatar y fomentar la programación en BASIC compilado, mostrando cómo se pueden crear proyectos educativos, retro y experimentales con herramientas clásicas y modernas.
