@@ -5,20 +5,18 @@ BASIC (Beginner’s All-purpose Symbolic Instruction Code) es uno de los lenguaj
 
 Aunque originalmente se ejecutaba en modo interpretado, la versión compilada permitió que los programas corrieran de forma más rápida y eficiente, generando archivos ejecutables independientes.
 
----
-
-## 📘 ¿Qué encontrarás en este proyecto?
+En este proyecto encontrarás:
 - Ejemplos de código en **BASIC compilado**.  
 - Tutoriales para compilar y ejecutar programas.  
 - Comparación entre **BASIC interpretado vs. compilado**.  
 - Referencias a compiladores e IDEs históricos y modernos.  
-- Proyectos de programación para practicar.
+- Proyectos de programación para practicar.  
 
 ---
 
 ## 🛠️ Compiladores e IDEs de BASIC
 
-Algunos compiladores y entornos de desarrollo que marcaron la evolución del BASIC:
+Algunos compiladores y entornos de desarrollo que marcaron la evolución del BASIC son:  
 
 - **QuickBASIC (QB)** – IDE y compilador de Microsoft, muy popular en los 80s y 90s.  
 - **QBasic** – Versión más ligera y educativa incluida en MS-DOS (solo intérprete).  
@@ -28,27 +26,28 @@ Algunos compiladores y entornos de desarrollo que marcaron la evolución del BAS
 
 ---
 
-## 💡 Proyectos de programación en BASIC
+## ⚙️ Cómo compilar con BC.EXE
 
-Algunos ejemplos de proyectos clásicos y educativos:
-- Juegos retro (Snake, Tetris, Pong).  
-- Utilidades de consola (calculadoras, agendas, editores de texto simples).  
-- Simulaciones matemáticas y gráficas.  
-- Programas educativos para aprender lógica de programación.  
+El compilador **BC.EXE** (Microsoft BASIC Compiler) junto con `LINK.EXE` permite convertir archivos `.BAS` en programas ejecutables `.EXE`.
 
----
+### Pasos para compilar con BC.EXE:
 
-## 📂 Organización del repositorio
-- `src/` → Código fuente en BASIC.  
-- `docs/` → Tutoriales y manuales.  
-- `bin/` → Ejecutables compilados.  
-- `examples/` → Proyectos de demostración.  
+1. Abre la consola de DOS (o DOSBox).  
+2. Ve a la carpeta donde tengas tu programa `PROGRAMA.BAS`, junto con `BC.EXE` y `LINK.EXE`.  
+3. Ejecuta el compilador:
 
----
+   ```dos
+   BC PROGRAMA.BAS;
+Esto genera un archivo objeto PROGRAMA.OBJ.
 
-## 🎯 Objetivo del proyecto
-Este proyecto busca rescatar y fomentar la programación en **BASIC compilado**, mostrando cómo se pueden crear proyectos educativos, retro y experimentales con herramientas clásicas y modernas.  
+Enlaza el objeto con LINK.EXE:
+Esto produce:
 
----
+PROGRAMA.EXE → programa compilado.
 
-> 🧠 *“El BASIC abrió las puertas de la programación a toda una generación. Con su versión compilada, también mostró que podía ser eficiente y profesional.”*
+PROGRAMA.MAP → archivo de depuración.
+
+Ejecuta el programa compilado:
+📝 Ejemplo práctico
+
+Código en HOLA.BAS:
