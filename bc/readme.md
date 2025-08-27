@@ -38,16 +38,47 @@ El compilador **BC.EXE** (Microsoft BASIC Compiler) junto con `LINK.EXE` permite
 
    ```dos
    BC PROGRAMA.BAS;
-Esto genera un archivo objeto PROGRAMA.OBJ.
+#Esto genera un archivo objeto PROGRAMA.OBJ.
 
 Enlaza el objeto con LINK.EXE:
 Esto produce:
 
-PROGRAMA.EXE → programa compilado.
+*PROGRAMA.EXE → programa compilado.
 
-PROGRAMA.MAP → archivo de depuración.
+*PROGRAMA.MAP → archivo de depuración.
 
-Ejecuta el programa compilado:
+*Ejecuta el programa compilado:
 📝 Ejemplo práctico
 
-Código en HOLA.BAS:
+* Código en HOLA.BAS:
+  PRINT "Hola mundo en BASIC compilado"
+END
+* Compilación:
+BC HOLA.BAS;
+LINK HOLA.OBJ;
+HOLA.EXE
+💡 Ejemplos de proyectos en BASIC
+
+Algunos ejemplos clásicos que se pueden desarrollar:
+
+Juegos retro (Snake, Tetris, Pong).
+
+Utilidades de consola (calculadoras, agendas, editores de texto simples).
+
+Simulaciones matemáticas y gráficas.
+
+Programas educativos para aprender lógica de programación.
+
+#📂 Organización del repositorio
+
+src/ → Código fuente en BASIC.
+
+docs/ → Tutoriales y manuales.
+
+bin/ → Ejecutables compilados.
+
+examples/ → Proyectos de demostración.
+
+#🎯 Objetivo del proyecto
+
+Este proyecto busca rescatar y fomentar la programación en BASIC compilado, mostrando cómo se pueden crear proyectos educativos, retro y experimentales con herramientas clásicas y modernas.
