@@ -1,84 +1,31 @@
-# 🚀 Programación en BASIC Compilado
+# Proyecto en BASIC
 
-Este repositorio está dedicado a explorar y preservar el lenguaje **BASIC** en su modalidad **compilada**.  
-BASIC (Beginner’s All-purpose Symbolic Instruction Code) es uno de los lenguajes más influyentes en la historia de la computación, usado tanto en enseñanza como en proyectos profesionales.  
+Este proyecto contiene ejemplos y programas escritos en **BASIC** que pueden ser compilados utilizando los compiladores clásicos de Microsoft.
 
-Aunque originalmente se ejecutaba en modo interpretado, la versión compilada permitió que los programas corrieran de forma más rápida y eficiente, generando archivos ejecutables independientes.
+## Compiladores incluidos
 
-En este proyecto encontrarás:
-- Ejemplos de código en **BASIC compilado**.  
-- Tutoriales para compilar y ejecutar programas.  
-- Comparación entre **BASIC interpretado vs. compilado**.  
-- Referencias a compiladores e IDEs históricos y modernos.  
-- Proyectos de programación para practicar.  
+- **BC.EXE** → Compilador de BASIC.  
+- **LINK.EXE** → Enlazador que genera los ejecutables finales.  
+- **QB.EXE** → QuickBASIC, que funciona tanto como intérprete como compilador.
 
----
+## Cómo compilar
 
-## 🛠️ Compiladores e IDEs de BASIC
+### Usando BC.EXE y LINK.EXE
 
-Algunos compiladores y entornos de desarrollo que marcaron la evolución del BASIC son:  
-
-- **QuickBASIC (QB)** – IDE y compilador de Microsoft, muy popular en los 80s y 90s.  
-- **QBasic** – Versión más ligera y educativa incluida en MS-DOS (solo intérprete).  
-- **Turbo BASIC / PowerBASIC** – Alternativas rápidas y potentes para crear ejecutables.  
-- **FreeBASIC** – Compilador moderno, libre y multiplataforma compatible con sintaxis de QuickBASIC.  
-- **QB64** – Intérprete/compilador moderno que permite crear ejecutables nativos en sistemas actuales.  
-
----
-
-## ⚙️ Cómo compilar con BC.EXE
-
-El compilador **BC.EXE** (Microsoft BASIC Compiler) junto con `LINK.EXE` permite convertir archivos `.BAS` en programas ejecutables `.EXE`.
-
-### Pasos para compilar con BC.EXE:
-
-1. Abre la consola de DOS (o DOSBox).  
-2. Ve a la carpeta donde tengas tu programa `PROGRAMA.BAS`, junto con `BC.EXE` y `LINK.EXE`.  
-3. Ejecuta el compilador:
-
-   ```dos
+1. Compilar el archivo fuente en BASIC:  
+   ```bash
    BC PROGRAMA.BAS;
-#Esto genera un archivo objeto PROGRAMA.OBJ.
+   LINK PROGRAMA.OBJ;
 
-Enlaza el objeto con LINK.EXE:
-Esto produce:
+###Esto producirá un archivo ejecutable PROGRAMA.EXE.
 
-*PROGRAMA.EXE → programa compilado.
+* Usando QB.EXE (QuickBASIC)
 
-*PROGRAMA.MAP → archivo de depuración.
+*QuickBASIC permite ejecutar directamente los programas en modo intérprete o compilarlos:
 
-*Ejecuta el programa compilado:
-📝 Ejemplo práctico
+*Ejecutar QuickBASIC:
+2 Dentro del entorno de QB.EXE puedes:
 
-* Código en HOLA.BAS:
-  PRINT "Hola mundo en BASIC compilado"
-END
-* Compilación:
-BC HOLA.BAS;
-LINK HOLA.OBJ;
-HOLA.EXE
-💡 Ejemplos de proyectos en BASIC
+Ejecutar directamente con F5.
 
-Algunos ejemplos clásicos que se pueden desarrollar:
-
-Juegos retro (Snake, Tetris, Pong).
-
-Utilidades de consola (calculadoras, agendas, editores de texto simples).
-
-Simulaciones matemáticas y gráficas.
-
-Programas educativos para aprender lógica de programación.
-
-📂 Organización del repositorio
-
-src/ → Código fuente en BASIC.
-
-docs/ → Tutoriales y manuales.
-
-bin/ → Ejecutables compilados.
-
-examples/ → Proyectos de demostración.
-
-🎯 Objetivo del proyecto
-
-Este proyecto busca rescatar y fomentar la programación en BASIC compilado, mostrando cómo se pueden crear proyectos educativos, retro y experimentales con herramientas clásicas y modernas.
+Compilar y generar el ejecutable desde el menú Run > Make EXE File.
