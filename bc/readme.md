@@ -29,3 +29,29 @@ Este proyecto contiene ejemplos y programas escritos en **BASIC** que pueden ser
 Ejecutar directamente con F5.
 
 Compilar y generar el ejecutable desde el menú Run > Make EXE File.
+
+💡 Proyectos de programación en BASIC
+
+Ejemplos de proyectos clásicos y educativos:
+
+Juegos retro (Snake, Tetris, Pong).
+
+Utilidades de consola (calculadoras, agendas, editores de texto simples).
+
+Simulaciones matemáticas y gráficas.
+
+Programas educativos para aprender lógica de programación.
+
+📂 Organización del repositorio
+
+src/ → Código fuente en BASIC.
+
+docs/ → Tutoriales y manuales.
+
+bin/ → Ejecutables compilados.
+
+examples/ → Proyectos de demostración.
+
+🎯 Objetivo del proyecto
+
+Este proyecto busca rescatar y fomentar la programación en BASIC compilado, mostrando cómo se pueden crear proyectos educativos, retro y experimentales con herramientas clásicas y modernas.
