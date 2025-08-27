@@ -69,7 +69,7 @@ Simulaciones matemáticas y gráficas.
 
 Programas educativos para aprender lógica de programación.
 
-#📂 Organización del repositorio
+📂 Organización del repositorio
 
 src/ → Código fuente en BASIC.
 
@@ -79,6 +79,6 @@ bin/ → Ejecutables compilados.
 
 examples/ → Proyectos de demostración.
 
-#🎯 Objetivo del proyecto
+🎯 Objetivo del proyecto
 
 Este proyecto busca rescatar y fomentar la programación en BASIC compilado, mostrando cómo se pueden crear proyectos educativos, retro y experimentales con herramientas clásicas y modernas.
