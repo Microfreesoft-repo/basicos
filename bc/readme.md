@@ -48,9 +48,9 @@ src/ → Código fuente en BASIC.
 
 docs/ → Tutoriales y manuales.
 
-bin/ → Ejecutables compilados.
+bin/ → compiladores y ids.
 
-examples/ → Proyectos de demostración.
+examples/ → binarios de los programas en basic.
 
 🎯 Objetivo del proyecto
 
