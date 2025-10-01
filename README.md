@@ -73,6 +73,45 @@ EXE2BIN | Conversor de EXE a COM
 - **QBasic**: Una versión simplificada de QuickBASIC que solo funciona como intérprete. Venía incluido con versiones posteriores de MS-DOS y era perfecto para aprender programación básica.
 
 
+# 🖥️ Microfreesoft Repo – Basicos
+
+Este repositorio reúne programas y ejemplos escritos en **FreeBASIC** y **Gambas**.  
+La idea es preservar, estudiar y compartir proyectos básicos hechos en estos lenguajes que marcaron una época en la programación sencilla, rápida y educativa.  
+
+---
+
+## 📂 Contenido
+
+- **FreeBASIC**  
+  Programas de consola, utilitarios y ejemplos que muestran cómo aprovechar el compilador FreeBASIC para crear aplicaciones portables y rápidas.  
+  - Ejemplos matemáticos  
+  - Utilidades de consola  
+  - Wrappers y librerías  
+
+- **Gambas**  
+  Proyectos gráficos y de escritorio en Gambas3, demostrando cómo hacer aplicaciones con formularios, botones, eventos y lógica de negocio.  
+  - Calculadoras y herramientas de práctica  
+  - Demos de interfaz gráfica  
+  - Proyectos educativos  
+
+---
+
+## 🚀 Objetivos
+
+- Reunir proyectos básicos y didácticos.  
+- Mostrar cómo combinar **FreeBASIC** y **Gambas** en un mismo espacio.  
+- Servir de punto de partida para quienes quieran aprender estos lenguajes.  
+
+---
+
+## 📜 Licencia
+
+Este repositorio se comparte con fines educativos y de preservación.  
+Puedes reutilizar y modificar los ejemplos libremente (indica la fuente si lo compartes).  
+
+---
+
+✍️ *Hecho por Lyxa Rayset – Microfreesoft*
 
 ---
 
